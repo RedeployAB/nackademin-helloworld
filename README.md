@@ -52,9 +52,13 @@ go run main.go
 
 ### Run application from binary
 
-Run the application from the binary file (assuming it is build and located in the same directory as the binary file):
+Run the application from the binary file (assuming it is built):
 ```sh
+cd build
 ./endpoint
+
+# Or
+./build/endpoint
 ```
 
 ### Run application with Docker
