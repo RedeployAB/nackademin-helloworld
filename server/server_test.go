@@ -71,7 +71,7 @@ func TestServer_Start(t *testing.T) {
 		{
 			name: "start",
 			want: []string{
-				"Server started listening on localhost:8080.\n",
+				"Server started, listening on localhost:8080.\n",
 				"Server stopped, reason: interrupt.\n",
 			},
 		},

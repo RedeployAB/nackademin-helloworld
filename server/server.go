@@ -72,7 +72,7 @@ func (s server) Start() {
 			s.log.Printf("Could not start server: %v\n", err)
 		}
 	}()
-	s.log.Printf("Server started listening on %s.\n", s.httpServer.Addr)
+	s.log.Printf("Server started, listening on %s.\n", s.httpServer.Addr)
 
 	sig, err := s.stop()
 	if err != nil {
