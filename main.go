@@ -23,3 +23,7 @@ func main() {
 
 	srv.Start()
 }
+
+go run main.go
+
+

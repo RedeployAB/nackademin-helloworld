@@ -39,3 +39,5 @@ EXPOSE ${PORT}
 USER ${BIN}:${BIN}
 
 ENTRYPOINT [ "/endpoint" ]
+
+docker run -d -p 8080:8080 --name endpoint endpoint:<version>
