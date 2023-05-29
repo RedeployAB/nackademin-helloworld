@@ -6,6 +6,11 @@ on:
       - 'dev'
     paths: 
       - '**.go'
+      
+  pull_request:
+    types: closed
+    branches: 
+      - 'main'
 
 jobs:
   test:
