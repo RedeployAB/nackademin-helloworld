@@ -1,6 +1,6 @@
 name: Go Test
 on:
-  push:
+  push: 
     branches: 
       - 'dev'
     paths: 
