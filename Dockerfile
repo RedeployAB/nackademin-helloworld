@@ -39,4 +39,3 @@ EXPOSE ${PORT}
 USER ${BIN}:${BIN}
 
 ENTRYPOINT [ "/endpoint" ]
-
