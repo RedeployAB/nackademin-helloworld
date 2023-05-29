@@ -5,9 +5,15 @@ name: Go
 
 on:
   push:
-    branches: [ "dev" ]
+    branches: 
+      - 'dev'
+    paths: 
+      - '**.go'
+      
   pull_request:
-    branches: [ "main" ]
+    types: closed
+    branches: 
+      - 'main'
 
 jobs:
 
